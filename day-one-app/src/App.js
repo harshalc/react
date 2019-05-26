@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import getData from './api';
 import './App.css';
 import SidebarComponent from './SidebarComponent';

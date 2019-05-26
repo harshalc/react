@@ -1,11 +1,9 @@
-import React, { Component, Fragment } from 'react';
-import getData from './api';
+import React, { Component } from 'react';
 import './post.css'
 import Post from './Post';
 
 class PostListComponent extends Component {
     render() {
-        console.log(this.props.posts)
         let postContainer = [];
          if(this.props.posts){
              this.props.posts.forEach((value, index) => {
